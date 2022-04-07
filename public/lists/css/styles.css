@@ -1,7 +1,7 @@
 html {
   background-color: #D5EEBB;
   background-image: -webkit-linear-gradient(65deg, #5F7A61 30%, #D5EEBB);
-  min-height: 1000px;
+  min-height: 100%;
   font-family: "Segoe UI", Arial, sans-serif;
   color: #444941
 }
@@ -16,7 +16,7 @@ h1 {
 }
 
 .box {
-  max-width: 50%;
+  max-width: 75%;
   margin: auto auto 20px auto;
   background: white;
   border-radius: 5px;
