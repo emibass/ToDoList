@@ -1,0 +1,23 @@
+{
+  "name": "todolist-v1",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Emilia Fuks",
+  "license": "ISC",
+  "engines": {
+    "node": "16.14.2"
+  },
+
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "lodash": "^4.17.21",
+    "lowdash": "^1.2.0",
+    "mongoose": "^6.2.9"
+  },
+  "description": ""
+}
