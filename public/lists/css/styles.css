@@ -36,6 +36,7 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
+  align-content: center;
   border-bottom: 1px solid #F1F1F1;
   padding-top: 6px;
 }
@@ -105,6 +106,7 @@ input[type="text"] {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-content: center;
   text-align: center;
   height: 80px;
   top: 10px;
