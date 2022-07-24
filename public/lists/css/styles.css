@@ -9,14 +9,15 @@ html {
 h1 {
   color: #D5EEBB;
   padding: 10px;
-  font-size: larger;
+  font-size: 3em;
   font-family: "Segoe UI", Arial, sans-serif;
   font-weight: bold;
+  text-transform: uppercase;
   
 }
 
 .box {
-  max-width: 75%;
+  max-width: 90%;
   margin: auto auto 20px auto;
   background: white;
   border-radius: 5px;
@@ -31,10 +32,12 @@ h1 {
 
 
 .item {
-  min-height: 40px;
+  min-height: 70px;
   display: flex;
-  align-items: left;
+  flex-direction: row;
+  justify-content: flex-start;
   border-bottom: 1px solid #F1F1F1;
+  padding-top: 6px;
 }
 
 .item:last-child {
@@ -54,8 +57,8 @@ input:checked+p {
 p {
   margin: 0;
   padding: 20px;
-  font-size: 20px;
-  font-weight: 200;
+  font-size: 2em;
+  font-weight: 400;
   color: #444941;
 }
 
@@ -64,31 +67,52 @@ a {
   text-decoration: none;
 }
 
+.listItem {
+  color: #444941;
+}
+
 form {
   text-align: left;
   margin-left: 20px;
 }
 
 .add {
-  height: 25px;
-  width: 25px;
-
+  height: 40px;
+  width: 40px;
   background-color: white;
   color: #444941;
   border-width: 0;
-
   cursor: pointer;
+  padding-right: 5em;
+  padding-top: 1em;
+}
+
+
+
+.trash {
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  padding-right: 3em;
+}
+
+.trash:hover {
+  color: #8ae02d;
+  
 }
 
 input[type="text"] {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   text-align: center;
-  height: 30px;
+  height: 80px;
   top: 10px;
   border: none;
   background: transparent;
-  font-size: 15px;
-  font-weight: 200;
-  width: 80%;
+  font-size: 3em;
+  font-weight: 400;
+  width: 60%;
 }
 
 input[type="text"]:focus {
